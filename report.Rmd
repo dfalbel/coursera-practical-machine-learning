@@ -1,0 +1,20 @@
+---
+title: "Report: Practical Machine Learning - Coursera"
+author: "Daniel Falbel"
+date: "05-05-2015"
+output: html_document
+bibliography: bibliography.bib
+---
+
+The goal of this project is to use data from accelerometers on the belt, forearm, arm and dumbell of 6 participants, collected by ressearchers for the study *Qualitative Activity Recognition of Weight Lifting Exercises* [@dataset] to predict the manner in wich each partipant did the exercises.
+
+# Reading data into R
+
+```{r}
+d <- read.csv("data/pml-training.csv")
+```
+
+You may use any of the other variables to predict with. You should create a report describing how you built your model, how you used cross validation, what you think the expected out of sample error is, and why you made the choices you did. You will also use your prediction model to predict 20 different test cases. 
+
+
+# References
